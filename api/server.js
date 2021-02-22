@@ -15,7 +15,7 @@ server.use(logger)
 server.use(express.json())
 server.use(
   cors({
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000', 'https://alexanderoguejiofor.com/'],
     credentials: true,
   })
 )
